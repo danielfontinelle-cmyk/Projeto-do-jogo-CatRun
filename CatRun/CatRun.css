@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:aqua;
+    height: 100vh;
+    margin: auto;
+}
+
+#telagamer{
+    position: relative;
+    width:100%;
+    height: 100%;
+    margin:auto;
+
+}
+
+.informacoes{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    gap: 15px;
+}
+
+#imgPeixe{
+    position: relative;
+    width: 70px;
+    top: 5px;
+}
+
+#x{
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+#peixe{
+    position: relative;
+    font-size: 20px;
+    top: -10px;
+    left: -5px;
+}
+
+#and{
+    position: relative;
+    top: -10px;
+
+}
+
+#solo{
+ position: absolute;
+ width: 100%;
+ height: 50%;
+ bottom: 0;
+
+}
+
+#calcada{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-top: rgb(92, 96, 92) 80px solid;
+}
+
+#lixeira{
+position: absolute;
+width: 100px;
+bottom: 365px;
+}
+
+#banco{
+    position: absolute;
+    width: 170px;
+    bottom: 362px;
+    
+}
+
+#gato{
+    position: absolute;
+    bottom: 366px;
+}
