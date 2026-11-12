@@ -19,7 +19,31 @@ body, html {
 
 }
 
+#arvore{
+    position: absolute;
+    width: 300px;
+    bottom: 298px;
+    left: 700px;
+}
+
+#casazul{
+    position: absolute;
+    width: 350px;
+    bottom: 297px;
+    left: 1000px;
+    z-index: 0;
+}
+
+#predio{
+    position: absolute;
+    width: 350px;
+    bottom: 273px;
+    left: 430px;
+    z-index: 0;
+}
+
 .informacoes{
+    position: relative;
     margin-top: 5px;
     display: flex;
     justify-content: center;
@@ -29,6 +53,7 @@ body, html {
     font-family:'Courier New', Courier, monospace;
     font-size: 25px;
     gap: 15px;
+    z-index: 1;
 }
 
 #imgPeixe{
@@ -76,19 +101,23 @@ body, html {
 #lixeira{
 position: absolute;
 width: 100px;
-bottom: 320px;
+bottom: 250px;
+left: 700px;
 }
 
 #banco{
     position: absolute;
     width: 170px;
     bottom: 315px;
-    
+    left: 1000px;
+    bottom: 250px;
 }
 
 #gato{
     position: absolute;
-    bottom: 321px;
+    width: 150px;
+    bottom: 250px;
+    left: 50px;
 }
 
 #rua{
