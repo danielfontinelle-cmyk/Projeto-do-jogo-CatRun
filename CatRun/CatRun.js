@@ -64,13 +64,13 @@ function criarImagem(src, largura, x, y) {
     img.className = 'entidade';
     img.style.width = largura + 'px';
     img.style.left = x + 'px';
-    img.style.bottom = 'calc(var(--chao) + ' + y + 'px)';
+    img.style.bottom = 'calc(250px + ' + y + 'px)';
     tela.appendChild(img);
     return { el: img, x: x, y: y, largura: largura };
 }
 
 function criarPeixe(x, y) {
-    peixes.push(criarImagem('Imagens/peixe.png', 80, x, y));
+    peixes.push(criarImagem('peixe.png', 80, x, y));
 }
 
 function criarObstaculo() {
@@ -148,7 +148,7 @@ function moverGato() {
             gatoVel = 0;
         }
     }
-    gato.style.bottom = 'calc(var(--chao) + ' + gatoY + 'px)';
+    gato.style.bottom = 'calc(250px + ' + gatoY + 'px)';
 }
 
 
@@ -209,7 +209,7 @@ function resetar() {
 
     spanPeixes.textContent = pontos;
     spanTempo.textContent = tempo;
-    gato.style.bottom = 'var(--chao)';
+    gato.style.bottom = '250px';
 }
 
 function iniciar() {
