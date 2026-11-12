@@ -8,12 +8,10 @@
 </head>
 <body>  
 <div id="telagamer">
-    
 
     <div class="informacoes">
-
         <div class="contadorPeixes">
-            <img src="Imagens/peixe.png" id="imgPeixe">
+            <img src="peixe.png" id="imgPeixe">
             <span id="x">x</span>
             <span id="peixe">0</span>
             <span id="and">-</span>
@@ -23,25 +21,31 @@
             <span>Time:</span>
             <span id="tempo">60</span>
         </div>
-
     </div>
 
     <div id="solo">
         <div id="calcada"></div>
-        <img src="Imagens/casazul.png" id="casazul">
-        <img src="Imagens/predio.png" id="predio">
-        <img src="Imagens/Arvore.png" id="arvore">
-        <img src="imagens/gatocorrendo.gif" id="gato">
-        <img src="imagens/Lixeira.png" id="lixeira">
-        <img src="imagens/Banco.png" id="banco">
 
-          <div id="rua">
-             <div class="faixa"></div>
-             <div class="faixa"></div>
-             <div class="faixa"> </div>
-          </div>
+        <img src="gatocorrendo.gif" id="gato">
+
+        <div id="rua">
+            <div id="faixas"></div>
+        </div>
+    </div>
+
+    <div id="telaInicio">
+        <h1>Cat Run</h1>
+        <button id="btnIniciar">Iniciar</button>
+    </div>
+
+    <div id="telaGameOver" class="oculto">
+        <h2 id="msgFim"></h2>
+        <p id="placarFinal"></p>
+        <button id="btnReiniciar">Jogar de novo</button>
     </div>
 
 </div>
+
+<script src="CatRun.js"></script>
 </body>
 </html>
