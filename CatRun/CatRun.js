@@ -70,7 +70,7 @@ function criarImagem(src, largura, x, y) {
 }
 
 function criarPeixe(x, y) {
-    peixes.push(criarImagem('peixe.png', 80, x, y));
+    peixes.push(criarImagem('Imagens/peixe.png', 80, x, y));
 }
 
 function criarObstaculo() {
@@ -78,9 +78,9 @@ function criarObstaculo() {
     let obstaculo;
 
     if (Math.random() < 0.5) {
-        obstaculo = criarImagem('Lixeira.png', 70, x, 0);
+        obstaculo = criarImagem('Imagens/Lixeira.png', 70, x, 0);
     } else {
-        obstaculo = criarImagem('Banco.png', 120, x, 0);
+        obstaculo = criarImagem('Imagens/Banco.png', 120, x, 0);
     }
     obstaculos.push(obstaculo);
 
