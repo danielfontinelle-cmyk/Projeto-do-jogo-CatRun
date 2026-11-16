@@ -135,7 +135,7 @@ function moverLista(lista) {
 
 function pular() {
     if (jogando && gatoY === 0) {
-        gatoVel = 22;
+        gatoVel = 17;
     }
 }
 
